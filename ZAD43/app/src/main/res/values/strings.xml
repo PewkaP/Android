@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZAD4.3</string>
+    <string name="adres">Adres:</string>
+    <string name="rozmiar">Rozmiar pliku:</string>
+    <string name="typ">Typ pliku:</string>
+    <string name="pobrano">Pobrano bajtów:</string>
+    <string name="buttonPobierzInfo">POBIERZ INFORMACJE</string>
+    <string name="pobierzPlik">POBIERZ PLIK</string>
+    <string name="rozmiarValue" />
+    <string name="urlValue">https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.36.tar.xz</string>
+</resources>

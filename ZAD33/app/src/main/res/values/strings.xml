@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZAD3.3</string>
+    <string name="textview1">Manufacturer</string>
+    <string name="textview2">Model</string>
+    <string name="textView3">Android version</string>
+    <string name="textview4">webpage</string>
+    <string name="hint1">manu</string>
+    <string name="hint2">model</string>
+    <string name="hint3">android ver</string>
+    <string name="hint4">web</string>
+    <string name="error_word">nie działa</string>
+</resources>

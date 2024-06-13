@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="imie">Imię:</string>
+    <string name="nazwisko">Nazwisko:</string>
+    <string name="liczba_ocen">Liczba ocen:</string>
+    <string name="gradesHint">Wpisz liczbę ocen (5-15)</string>
+    <string name="nameHint">Wpisz imię</string>
+    <string name="lastnameHint">Wpisz nazwisko</string>
+    <string name="gradesButtonHint">Oceny</string>
+    <string name="calculateAverageButtonText">Oblicz średnią</string>
+    <string name="radiobutton5">5</string>
+    <string name="radiobutton4">4</string>
+    <string name="radiobutton3">3</string>
+    <string name="radiobutton2">2</string>
+    <string name="przedmiot">przedmiot</string>
+    <string name="button">Button</string>
+    <string-array name="nazwy_przedmiotow">
+        <item>Przedmiot 1</item>
+        <item>Przedmiot 2</item>
+        <item>Przedmiot 3</item>
+        <item>Przedmiot 4</item>
+        <item>Przedmiot 5</item>
+        <item>Przedmiot 6</item>
+        <item>Przedmiot 7</item>
+        <item>Przedmiot 8</item>
+        <item>Przedmiot 9</item>
+        <item>Przedmiot 10</item>
+        <item>Przedmiot 11</item>
+        <item>Przedmiot 12</item>
+        <item>Przedmiot 13</item>
+        <item>Przedmiot 13</item>
+        <item>Przedmiot 15</item>
+    </string-array>
+</resources>
