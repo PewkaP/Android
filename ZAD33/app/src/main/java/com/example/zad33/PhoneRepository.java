@@ -1,6 +1,7 @@
 package com.example.zad33;
 
 import android.app.Application;
+import android.util.Log;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -11,18 +12,14 @@ import java.util.List;
 public class PhoneRepository {
     private PhoneDao mPhoneDao;
     private LiveData<List<Phone>> mAllPhones;
-
     PhoneRepository(Application application) {
         PhoneRoomDatabase phoneRoomDatabase =
                 PhoneRoomDatabase.getDatabase(application);
-        //repozytorium korzysta z DAO a nie bezpośrednio z bazy
         mPhoneDao = phoneRoomDatabase.phoneDao();
         mAllPhones = mPhoneDao.getAlphabetizedPhones();
     }
     LiveData<List<Phone>> getAllPhones() { return mAllPhones; }
-    //operacje muszą być wykonywane w osobnym wątku
     void insert(Phone phone) {
-        //Runnable -> lambda
         PhoneRoomDatabase.databaseWriteExecutor.execute(() -> {
             mPhoneDao.insert(phone);
         });

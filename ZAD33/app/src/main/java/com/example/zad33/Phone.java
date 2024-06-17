@@ -25,10 +25,10 @@ public class Phone {
     @ColumnInfo(name = "webpage")
     private String webpage;
     public Phone(@NotNull String manufacturer, @NotNull String model, @NotNull String androidVersion, @NotNull String webpage){
-        manufacturer=manufacturer;
-        model=model;
-        androidVersion=androidVersion;
-        webpage=webpage;
+        this.manufacturer=manufacturer;
+        this.model=model;
+        this.androidVersion=androidVersion;
+        this.webpage=webpage;
     }
     @NotNull
     public int getId() {

@@ -1,5 +1,7 @@
 package com.example.zad33;
 
+import android.util.Log;
+
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;

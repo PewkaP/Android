@@ -9,4 +9,12 @@
     <string name="hint3">android ver</string>
     <string name="hint4">web</string>
     <string name="error_word">nie działa</string>
+    <string name="fabdelete">fabDelete</string>
+    <string name="fabmain">fabMain</string>
+    <string name="dodaj_telefon">Dodaj Telefon</string>
+    <string name="recyclerViewItemModelText">model</string>
+    <string name="recyclerViewItemManufacturerText">manufacturer</string>
+    <string name="clear_data">Clear Data</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="website">website</string>
 </resources>

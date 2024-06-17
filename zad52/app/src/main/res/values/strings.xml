@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">zad5.2</string>
+    <string name="redraw">REDRAW</string>
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="x">X</string>
+    <string name="zobacz_obrazy">Zobacz obrazy</string>
+    <string name="zapisz_obraz">Zapisz obraz</string>
+</resources>
